@@ -2,7 +2,7 @@
 function greet() {
     var name = prompt('What is your name?');
     console.log(name)
-    alert('Hello, ' + name);
+    alert('Hello, ' + name + '!');
     var age = parseInt(prompt('How old are you?'));
     console.log(parseInt(age))
     var bday = confirm('Have you celebrated your birthday this year? If yes, click OK. If not, click cancel.')
